@@ -4,3 +4,8 @@
   ```
   npm install -g @angular/cli@19.2.0
   ```
+- permitir los scripts
+  Powershell en modo admin
+  ```
+  Set-ExecutionPolicy Unrestricted
+  ```
