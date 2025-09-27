@@ -14,3 +14,7 @@
   ```
   npm uninstall -g @angular/cli
   ```
+- generar componente
+  ```
+  ng g c carpeta/componente --change-detection Default  --inline-style --skip-tests
+  ```
