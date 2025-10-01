@@ -18,3 +18,20 @@
   ```
   ng g c carpeta/componente --change-detection Default  --inline-style --skip-tests
   ```
+### 17:36 1/10/2025
+- paquetes para variables de entorno, mysql, express framework 5.1.0, el cors para comunicarnos con el front seguramente, monitor de cambios el nodemon
+  ```
+  npm i express cors
+  npm i mysql2 dotenv cors
+  npm i --save-dev nodemon
+  ```
+- bd bibliotecadb
+  ```
+  CREATE TABLE `bibliotecadb`.`libros` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `titulo` VARCHAR(45) NULL,
+  `autor` VARCHAR(45) NULL,
+  `isbn` VARCHAR(45) NULL,
+  `editorial` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+  ```
