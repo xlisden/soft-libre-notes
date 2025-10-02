@@ -1,4 +1,8 @@
 # soft-libre-notes
+```
+git config user.name "xlisden"
+git config user.email "dayenira.delgado@gmail.com"
+```
 ### 19:46 26/09/2025
 - node js v22 - 22.20.0
 - angular v19 
