@@ -16,7 +16,7 @@
   ```
 - generar componente
   ```
-  ng g c carpeta/componente --change-detection Default  --inline-style --skip-tests
+  ng g c carpeta/componente --change-detection Default --inline-style --skip-tests
   ```
 ### 17:36 1/10/2025
 - paquetes para variables de entorno, mysql, express framework 5.1.0, el cors para comunicarnos con el front seguramente, monitor de cambios el nodemon
@@ -27,6 +27,7 @@
   ```
 - bd bibliotecadb
   ```
+  CREATE SCHEMA IF NOT EXISTS bibliotecadb
   CREATE TABLE `bibliotecadb`.`libros` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `titulo` VARCHAR(45) NULL,
@@ -35,3 +36,4 @@
   `editorial` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
   ```
+- los envs van al mismo nivel del package json o en root
