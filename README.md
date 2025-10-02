@@ -33,11 +33,11 @@ git config user.email "dayenira.delgado@gmail.com"
   ```
   CREATE SCHEMA IF NOT EXISTS bibliotecadb
   CREATE TABLE `bibliotecadb`.`libros` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `titulo` VARCHAR(45) NULL,
-  `autor` VARCHAR(45) NULL,
-  `isbn` VARCHAR(45) NULL,
-  `editorial` VARCHAR(45) NULL,
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `titulo` VARCHAR(45) NULL,
+    `autor` VARCHAR(45) NULL,
+    `isbn` VARCHAR(45) NULL,
+    `editorial` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
   ```
 - los envs van al mismo nivel del package json o en root
