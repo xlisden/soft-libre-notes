@@ -3,6 +3,9 @@
 git config user.name "xlisden"
 git config user.email "dayenira.delgado@gmail.com"
 ```
+- https://app.capacities.io/home/2f182914-42b1-40b3-94c9-50b702c65c46
+- https://xlisden.notion.site/Git-GitHub-4da26f209cc040b3a72ae09038c11bf3
+---
 ### 19:46 26/09/2025
 - node js v22 - 22.20.0
 - angular v19 
